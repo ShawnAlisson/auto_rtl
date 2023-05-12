@@ -38,8 +38,8 @@ String yourText = "";
 AutoRTL(
   content: yourText,
   defaultRTL: true
-  #For default LTR it should be false, or it can based on the language.
-  #For example, defaultRTL: Localizations.localeOf(context).toString() == "fa" ? true : false
+  //For LTR, For LTR, it should be false, or it can be based on the language.
+  //For example, defaultRTL: Localizations.localeOf(context).toString() == "fa" ? true : false
 
   child: TextField(
     onChanged: (value){
