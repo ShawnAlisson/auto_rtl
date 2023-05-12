@@ -25,8 +25,8 @@
 
    ```sh
     [auto_rtl]:
-    git:
-      url: https://github.com/ShawnAlisson/auto_rtl
+      git:
+        url: https://github.com/ShawnAlisson/auto_rtl
    ```
 
 2. Wrap your widget with this
